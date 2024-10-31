@@ -1,0 +1,189 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+.apresentacao{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 50px;
+  border: #00ff51 solid;
+  padding: 50px;
+  color: #dfece6;
+}
+
+body{
+  background-color: #000000;
+  color: #dfece6;
+}
+
+.descrição{
+  font-size: 200px;
+}
+
+.fotos-curiosidades{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+}
+
+.colecao{
+  height: 200px;
+  width: 200px;
+  border-radius: 300px;
+}
+
+.cozinhando{
+  height: 200px;
+  width: 200px;
+  border-radius: 300px;
+
+}
+
+.hamburguer{
+  height: 200px;
+  width: 200px;
+  border-radius: 300px;
+
+}
+
+.lan{
+  height: 200px;
+  width: 200px;
+  border-radius: 300px;
+
+}
+
+.cachorros {
+  height: 200px;
+  width: 200px;
+  border-radius: 300px;
+}
+
+.comendo{
+  height: 200px;
+  width: 200px;
+  border-radius: 300px;
+}
+
+.logo{
+  height: 60px;
+  width: 60px;
+  border-radius: 300px;
+
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.links{
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+  padding: 15px;
+  
+}
+
+.perfil{
+  height: 100px;
+  width: 100px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.inicio{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 25px;
+  gap: 20px;
+}
+
+.minhafoto{
+  background-color: #7904e7;
+  border-radius: 75px;
+}
+
+.curiosidades{
+  padding: 50px;
+  background-color: #00ff51;
+  color: #000000;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.rodape{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.apresentacao h1 {
+  font-size: 100px;
+  color: #7904e7;
+}
+
+.apresentacao p {
+  font-size: 30px;
+}
+
+.lazer{
+  display: flex;
+  flex-direction: row;
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: row;
+  gap: 400px;
+  padding: 50px;
+}
+
+.controle {
+  height: 200px;
+  width: 200px;
+  border-radius: 300px;
+}
+
+.exercicios {
+  height: 200px;
+  width: 200px;
+  border-radius: 300px;
+}
+
+.musica {
+  height: 200px;
+  width: 200px;
+  border-radius: 300px;
+}
+
+.pudim {
+  height: 200px;
+  width: 200px;
+  border-radius: 300px;
+}
+
+.hobbies_titulo h1 {
+  font-size: 150px;
+}
+
+.hobbies_titulo h2 {
+  font-size: 75px;
+}
