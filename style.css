@@ -7,38 +7,36 @@
     padding: 0;
 }
   
-.no-underline{
+.no-underline {
   text-decoration: none;
   color: #00ff51;
   font-family: "Orbitron", sans-serif;
 
 }
 
-.apresentacao{
+.apresentacao {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 50px;
+  padding: 40px;
   color: #ffffff;
+  top: 10px;
 }
 
-body{
+body {
   background-color: #000000;
   color: #ffffff;
 }
 
-.descrição{
-  font-size: 200px;
-}
-
-.fotos-curiosidades{
+.fotos-curiosidades {
   display: flex;
   flex-direction: row;
   gap: 50px;
   justify-content: center;
+  margin-top: 45px;
 }
 
-.colecao{
+.colecao {
   height: 200px;
   width: 200px;
   border-radius: 300px;
@@ -46,7 +44,7 @@ body{
   padding: 5px;
 }
 
-.cozinhando{
+.cozinhando {
   height: 200px;
   width: 200px;
   border-radius: 300px;
@@ -54,7 +52,7 @@ body{
   padding: 5px;
 }
 
-.hamburguer{
+.hamburguer {
   height: 200px;
   width: 200px;
   border-radius: 300px;
@@ -62,7 +60,7 @@ body{
   padding: 5px;
 }
 
-.lan{
+.lan {
   height: 200px;
   width: 200px;
   border-radius: 300px;
@@ -78,22 +76,22 @@ body{
   padding: 5px;
 }
 
-.comendo{
-  height: 200px;
+.comendo {
+  height : 200px;
   width: 200px;
   border-radius: 300px;
   border: #7904e7 solid;
   padding: 5px;
 }
 
-.logo{
+.logo {
   height: 60px;
   width: 60px;
   border-radius: 300px;
 
 }
 
-.nav{
+.nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -111,7 +109,7 @@ body{
 main{
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 150px;
 }
 
 #inicio {
@@ -131,25 +129,35 @@ main{
   width: 400px;
   height: 400px;
   position: relative;
-  transform: scale(1.2);
+  transform: scale(1.12);
 }
 
-#curiosidades {
-  padding: 50px;
+.curiosidades {
+  padding: 40px;
   background-color: #00ff51;
   color: #000000;
-  font-size: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Orbitron", sans-serif;
+  gap: 20px;
 }
 
-.rodape{
+.curiosidades h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 40px;
+}
+
+.curiosidades p {
+  font-family: "Exo 2", sans-serif;
+  font-size: 30px;
+}
+
+#rodape{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding: 25px;
+  margin-top: 150px;
 }
 
 .apresentacao h1 {
@@ -159,14 +167,14 @@ main{
 }
 
 .apresentacao p {
-  font-size: 30px;
+  font-size: 37.5px;
   font-family: "Exo 2", sans-serif;
   border-radius: 50px;
   border: #00ff51 solid;
-  padding: 40px;
+  padding: 60px;
 }
 
-.lazer{
+.lazer {
   display: flex;
   flex-direction: row;
   align-items: center;
